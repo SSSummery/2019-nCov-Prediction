@@ -1,5 +1,11 @@
-function fitness = myFitCal(k,time)
-%function fitness = myFitCal(dk)
+%name:myFitCal.m
+%This code definite the fitness functions for PSO during the first and second period of our work. You may %need some time to figure out the note in the code, cause some plot command should be shield during PSO. %But if you want to see the detailed information and value, especially you want to get the Figure 5-6.
+
+%Runge-Kutta 
+%The Runge-Kutta iteration is in this function. By adopting this iteration, we can finally get the %prediction value and use them to get the LSE as fitness for PSO.
+%%
+function fitness = myFitCal(k,time) %period 1(2 parameters)
+%function fitness = myFitCal(dk) %period 2(1 parameter)
 actual=[1492;1247;778;769;587;667;146;561;240;238;250;78;93;97;53;62;14];
 %3590;3497;2547;2651;2313;977;1797;
 ac=flipud(actual);
