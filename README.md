@@ -12,16 +12,21 @@
 * For more details, you are supposed to read the note at the beginning of each code file.
 
 ## Algorithm flow
-<img src="https://github.com/Sunmile/IMPMD/blob/master/Figures/Figure_1.png"> 
-## Results
-The ROC curves of different algorithm based on 10-fold cross validation. (A) the ROC curves of SVM. (B) the ROC curves of KNN. (C) the ROC curves of LR. (D) the ROC curves of comprehensive predictor.
-<img src="https://github.com/Sunmile/IMPMD/blob/master/Figures/Figure_2.png"> 
+In this article, we take Italy which is now experiencing severe situation of 2019-nCov as example to conduct analysis with the aim of offering utilizable suggestion. In the first period (before March 9, 2020), we attempt to inverse the virus spread timeline in Italy and the early period average spreading velocity by adopting PSO to optimize the parameters based on our SEIJR model and existing data (World Health Organization, 2020a). In the second period (only use data from March 9-16, 2020), we optimize the average spreading velocity in order to show the effect of country blockade. In the last period of our research, we demonstrate latent trends of confirmed cases with various average spreading velocity which of vital importance in controlling the disease. The whole flow chart is shown below.
+<img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%201.%20Flowchart.png"> 
 
+## Results
 Performance measures of the predictors trained by different algorithm. Four different algorithms are used to build models, namely SVM, KNN, LR and comprehensive algorithm, respectively.
-<img src="https://github.com/Sunmile/IMPMD/blob/master/Figures/Figure_3.png"> 
+<img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%204.%20Visualization%20of%20PSO%20searched%20results.png"> 
 
 Computational flow chart of miRNA functional similarity. Step 1, find out the diseases set (diseases associated with miRNA r_i and diseases associated with miRNA r_j, respectively). Step 2, calculate the semantic similarity between each disease in one disease set and each disease in another disease set. Step 3, find out the max semantic similarity for every disease. Step 4, calculate the functional similarity.
-<img src="https://github.com/Sunmile/IMPMD/blob/master/Figures/Figure_4.png"> 
+<img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%205.%20(a).png"> 
 
 The disease DAGs of Cerebral Infarction and Alzheimer Disease. (A) The addresses of Cerebral Infarction and its ancestor nodes. (B) The addresses of Alzheimer Disease and its ancestor nodes. The nodes with bold black font represent the common nodes of the two DAGs.
-<img src="https://github.com/Sunmile/IMPMD/blob/master/Figures/Figure_5.png"> 
+<img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%205.%20(b).png"> 
+
+Computational flow chart of miRNA functional similarity. Step 1, find out the diseases set (diseases associated with miRNA r_i and diseases associated with miRNA r_j, respectively). Step 2, calculate the semantic similarity between each disease in one disease set and each disease in another disease set. Step 3, find out the max semantic similarity for every disease. Step 4, calculate the functional similarity.
+<img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%206.png"> 
+
+The disease DAGs of Cerebral Infarction and Alzheimer Disease. (A) The addresses of Cerebral Infarction and its ancestor nodes. (B) The addresses of Alzheimer Disease and its ancestor nodes. The nodes with bold black font represent the common nodes of the two DAGs.
+<img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%207.png"> 
