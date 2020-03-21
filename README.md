@@ -17,11 +17,11 @@ In this article, we take Italy which is now experiencing severe situation of 201
 
 ## Results
 
-###The first period
+### The first period
 Adopting Visualization.m, you can get this result.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%204.%20Visualization%20of%20PSO%20searched%20results.png"> 
 
-###The second period
+### The second period
 Using mypso.m with fitness function for period first, you can get the result.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%205.%20(a).png"> 
 
@@ -31,6 +31,6 @@ Fixed the parameter you obtained previously, then adopt them for period second, 
 Based the parameter you obtained previously, then change the size of parameter of mypso.m, you can get the average spread velocity during the period second, the prediction and actual value is shown as follow.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%206.png"> 
 
-###different alpha
+### different alpha
 Using differentalpha.m, you can easily catch up the enfluence decided by the average spreadind velocity which is shown below.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%207.png"> 
