@@ -9,7 +9,7 @@
 
 %Runge-Kutta 
 %The Runge-Kutta iteration is in this function. By adopting this iteration, we can finally get the %prediction value and use them to get the LSE as fitness for PSO.
-
+%%
 function fitness = myFitCal(k,time) %period 1(2 parameters)
 %function fitness = myFitCal(dk) %period 2(1 parameter)
 actual=[1492;1247;778;769;587;667;146;561;240;238;250;78;93;97;53;62;14];
