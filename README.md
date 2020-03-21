@@ -16,17 +16,21 @@ In this article, we take Italy which is now experiencing severe situation of 201
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%201.%20Flowchart.png"> 
 
 ## Results
-Performance measures of the predictors trained by different algorithm. Four different algorithms are used to build models, namely SVM, KNN, LR and comprehensive algorithm, respectively.
+
+###The first period
+Adopting Visualization.m, you can get this result.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%204.%20Visualization%20of%20PSO%20searched%20results.png"> 
 
-Computational flow chart of miRNA functional similarity. Step 1, find out the diseases set (diseases associated with miRNA r_i and diseases associated with miRNA r_j, respectively). Step 2, calculate the semantic similarity between each disease in one disease set and each disease in another disease set. Step 3, find out the max semantic similarity for every disease. Step 4, calculate the functional similarity.
+###The second period
+Using mypso.m with fitness function for period first, you can get the result.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%205.%20(a).png"> 
 
-The disease DAGs of Cerebral Infarction and Alzheimer Disease. (A) The addresses of Cerebral Infarction and its ancestor nodes. (B) The addresses of Alzheimer Disease and its ancestor nodes. The nodes with bold black font represent the common nodes of the two DAGs.
+Fixed the parameter you obtained previously, then adopt them for period second, you will get the result.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%205.%20(b).png"> 
 
-Computational flow chart of miRNA functional similarity. Step 1, find out the diseases set (diseases associated with miRNA r_i and diseases associated with miRNA r_j, respectively). Step 2, calculate the semantic similarity between each disease in one disease set and each disease in another disease set. Step 3, find out the max semantic similarity for every disease. Step 4, calculate the functional similarity.
+Based the parameter you obtained previously, then change the size of parameter of mypso.m, you can get the average spread velocity during the period second, the prediction and actual value is shown as follow.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%206.png"> 
 
-The disease DAGs of Cerebral Infarction and Alzheimer Disease. (A) The addresses of Cerebral Infarction and its ancestor nodes. (B) The addresses of Alzheimer Disease and its ancestor nodes. The nodes with bold black font represent the common nodes of the two DAGs.
+###different alpha
+Using differentalpha.m, you can easily catch up the enfluence decided by the average spreadind velocity which is shown below.
 <img src="https://github.com/SSSummery/2019-nCov-Prediction/blob/master/Figure%207.png"> 
